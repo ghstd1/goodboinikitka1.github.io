@@ -10,20 +10,22 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="assets/img/logotip_rosneft.svg" alt="">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Бизнес</a></li>
-                <li><a href="#">Инвесторам</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+    <div class="presentation_background_wrap">
+        <header>
+            <div class="logo">
+                <a href="https://www.rosneft.ru/" class="logo_link">
+                    <img src="assets/img/logotip_rosneft.svg" alt="">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#info_about">О нас</a></li>
+                    <li><a href="#info_services">Бизнес</a></li>
+                    <li><a href="#info_investors">Инвесторам</a></li>
+                    <li><a href="#info_contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
         <section class="presentation_header_section">
             <div class="presentation_caption">
                 <h1>
@@ -34,21 +36,78 @@
                 </h2>
             </div>
         </section>
+    </div>
+    <main>
         <section class="presentation_info">
-            <div class="info_content info_about">
+            <div id="info_about" class="info_content info_about">
                 <div class="info_img_wrap">
-                    <img src="" alt="">
+                    <img src="./assets/img/info_about_pic.png" alt="">
                 </div>
                 <div class="info_text_wrap">
+                    <h1>
+                        О нас
+                    </h1>
                     <p class="info_text">
-
+                        ПАО НК «Роснефть» — лидер российской нефтяной отрасли и одна из крупнейших публичных добычных
+                        компаний мира. Флагманские
+                        проекты Компании оказывают стабилизирующее воздействие на национальную экономику, служат
+                        драйвером развития нефтегазовой
+                        отрасли, фундаментальной науки и передовых технологий. Дочерние предприятия повышают степень
+                        экономической устойчивости
+                        и социальной защищенности регионов присутствия. Собственные разработки Компании выполняют задачу
+                        обеспечения
+                        технологического суверенитета Российской Федерации.
                     </p>
                 </div>
             </div>
-            <div class="info_content info_services"></div>
-            <div class="info_content info_investors"></div>
+            <div id="info_services" class="info_content info_services">
+                <div class="info_img_wrap">
+                    <img src="./assets/img/info_business_pic.png" alt="">
+                </div>
+                <div class="info_text_wrap">
+                    <img src="./assets/img/info_business_decorate.png" alt="" class="text_decoration">
+                    <h1>
+                        Бизнес
+                    </h1>
+                    <p class="info_text">
+                        Мы осуществляем разные виды деятельности в нефтегазовой промышленности. Вы можете ознакомиться с
+                        результатами и прочими
+                        сведениями по данных видам деятельности ниже
+                    </p>
+                    <div class="info_buttons">
+                        <a href="https://www.rosneft.ru/business/Upstream/Overview/" class="info_button_instance yellow">
+                            Разведка и добыча
+                        </a>
+                        <a href="https://www.rosneft.ru/business/Downstream/Overview/" class="info_button_instance yellow">
+                            Переработка и сбыт
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="info_investors" class="info_content info_investors">
+                <div class="info_img_wrap">
+                    <img src="./assets/img/info_contacts_pic.png" alt="">
+                </div>
+                <div class="info_text_wrap">
+                    <h1>
+                        Инвесторам
+                    </h1>
+                    <p class="info_text">
+                        Наша компания рада предоставить нашим будущим инвесторам и акционерам всю актуальную информацию
+                        и документы для
+                        сотрудничества
+                        Перейти к порталу для инвесторов и акционеров
+                    </p>
+                    <div class="info_buttons">
+                        <a href="https://www.rosneft.ru/Investors/" class="info_button_instance black">
+                            Перейти
+                            <img src="./assets/img/info_investors_button_pointer.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="presentation_contacts">
+        <!-- <section class="presentation_contacts">
             <h3>Контакты</h3>
             <div class="contacts_wrap">
                 <div class="contact_card">
@@ -60,15 +119,66 @@
                     </span>
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
     <footer>
-        <div class="logo">
-            <img src="assets/img/logotip_rosneft.svg" alt="">
+        <div class="footer_content">
+            <div class="footer_info">
+                <div id="info_contacts" class="contacts">
+                    <ul class="footer_contact_list">
+                        <li class="contanct_instance">
+                            <span class="contact_caption">Единый справочно-информационный центр</span><br>
+                            <span class="contact_info">8 (499) 517-88-99</span>
+                        </li>
+                        <li class="contanct_instance">
+                            <span class="contact_caption">Горячая линия безопасности ПАО «НК «РОСНЕФТЬ»</span><br>
+                            <span class="contact_info">8 (800) 500-25-45</span>
+                        </li>
+                        <li class="contanct_instance">
+                            <span class="contact_caption">Единая горячая линия службы поддержки АЗС</span><br>
+                            <span class="contact_info">8 (800) 775-75-88</span>
+                        </li>
+                        <li class="contanct_instance">
+                            <span class="contact_caption">Телефон для акционеров (звонок по России бесплатный)</span><br>
+                            <span class="contact_info">8 (800) 500-11-00</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="site_map">
+                    <span class="site_map_header">карта сайта</span>
+                    <ul class="site_map_list">
+                        <li class="map_list_item">
+                            <a href="#info_about" class="map_link">о нас</a>
+                        </li>
+                        <li class="map_list_item">
+                            <a href="#info_services" class="map_link">бизнес</a>
+                        </li>
+                        <li class="map_list_item">
+                            <a href="#info_investors" class="map_link">инвесторы</a>
+                        </li>
+                        <li class="map_list_item">
+                            <a href="#info_contacts" class="map_link">контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_social_links">
+                <a href="https://vk.com/rosneftru" class="social_link">
+                    <img src="./assets/img/social_icon_vk.svg" alt="" class="footer_social_links">
+                </a>
+                <a href="https://t.me/rosneftofficial" class="social_link">
+                    <img src="./assets/img/social_icon_tg.svg" alt="" class="footer_social_links">
+                </a>
+                <a href="https://www.youtube.com/channel/UCMQsspvWUbUp-rj7y8Y2nPg" class="social_link">
+                    <img src="./assets/img/social_icon_yt.svg" alt="" class="footer_social_links">
+                </a>
+            </div>
         </div>
-        <div class="socials_links"></div>
-        <div class="site_map"></div>
-        <div class="contacts"></div>
+        <div class="footer_company_label">
+            <a href="https://www.rosneft.ru/" class="company_link">
+                РОСНЕФТЬ, 2023
+            </a>
+        </div>
     </footer>
 </body>
 
